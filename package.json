@@ -1,6 +1,6 @@
 {
   "name": "currency-in-word",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A lightweight npm library to convert currency values into words.",
   "main": "index.js",
   "type": "module",
