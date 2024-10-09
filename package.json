@@ -1,0 +1,20 @@
+{
+  "name": "currency-in-word",
+  "version": "1.0.0",
+  "description": "A lightweight npm library to convert currency values into words.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "currency",
+    "words",
+    "convert",
+    "currency-in-word",
+    "npm"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {}
+}
