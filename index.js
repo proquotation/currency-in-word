@@ -1,6 +1,10 @@
-import { countries } from "./countries";
+import countries from "./countries.json";
 
-export function currencyInWords(amount = 0, currency ="INR", fallBackCurrency = "INR") {
+export function currencyInWords(
+  amount = 0,
+  currency = "IN",
+  fallBackCurrency = "IN"
+) {
   function checkAndConvertToNumber(value) {
     if (typeof value === "number") {
       return value; // If the value is already a number, return it as is
@@ -157,5 +161,3 @@ export function currencyInWords(amount = 0, currency ="INR", fallBackCurrency = 
 
   return amountInWordsString;
 }
-
-
