@@ -18,10 +18,12 @@ npm install currency-in-word
 ## Usage
 
 ```javascript
-const currencyInWord = require('currency-in-word');
+import { currencyInWords } from 'currency-in-word';
 
 const amount = 1234.56;
-const result = currencyInWord(amount);
+const currency = "US";
+const fallBackCurrency = "US";
+const result = currencyInWords(amount, currency, fallBackCurrency);
 console.log(result); // Outputs: "One thousand two hundred thirty-four dollars and fifty-six cents"
 ```
 
