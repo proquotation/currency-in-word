@@ -1,4 +1,5 @@
 import countries from "./countries.json";
+import currency from "currency.js";
 
 export function currencyInWords(
   amount = 0,
@@ -160,4 +161,13 @@ export function currencyInWords(
   amountInWordsString = amountInWordsString + " only";
 
   return amountInWordsString;
+}
+
+// Format currency
+export function formatCurrency(amount) {
+  return currency(amount, {
+    symbol: "",
+    separator: ",",
+    decimal: ".",
+  }).format();
 }
